@@ -3,8 +3,7 @@
  
  ## Rules of game
  
- 
- You can puse the game by pressing on p key.
+ You can pause the game by pressing the p key.
  
  ## Levels
  The game has 4 different Levels:
