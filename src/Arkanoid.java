@@ -20,7 +20,7 @@ import java.util.List;
 /**
  * This class is a the main class which run the game.
  */
-public class Ass6Game {
+public class Arkanoid {
     static final String NAME_OF_WINDOW = "Arkanoid";
     private static final int WIDTH = 800;
     private static final int HEIGHT = 600;
@@ -43,7 +43,7 @@ public class Ass6Game {
      */
     public static void main(String[] args) {
         List<LevelInformation> levels = new ArrayList<LevelInformation>();
-        Ass6Game ass6Game = new Ass6Game();
+        Arkanoid arkanoid = new Arkanoid();
         if (args.length == 0) {
             levels.add(new Level1());
             levels.add(new Level2());
@@ -69,6 +69,6 @@ public class Ass6Game {
                 levels.add(new Level4());
             }
         }
-        ass6Game.run(levels);
+        arkanoid.run(levels);
     }
 }
